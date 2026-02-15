@@ -1,0 +1,12 @@
+{
+  "openrouterApiKey": "or-xxxxxxxxxxxxxxxxxxxxxxxx",
+  "openrouterBaseUrl": "https://openrouter.ai/api/v1",
+  "modelProviders": {
+    "openrouter/model-id": "openrouter/provider-id",
+    "add-as-many-models": "add-as-many-providers",
+    "z-ai/glm-5": "atlas-cloud/fp8"
+  },
+  "allowFallbacks": false,
+  "bindHost": "127.0.0.1",
+  "port": 3434
+}

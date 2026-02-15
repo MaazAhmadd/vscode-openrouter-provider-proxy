@@ -1,0 +1,13 @@
+{
+  "name": "llm-proxy-or-provider",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run server.ts",
+    "dev": "bun run server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5"
+  }
+}
