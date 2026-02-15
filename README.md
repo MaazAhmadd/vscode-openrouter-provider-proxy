@@ -35,12 +35,6 @@ bun install
 2. Start the proxy:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\start.ps1 -OpenUI
-```
-
-or:
-
-```powershell
 bun run server.ts
 ```
 
