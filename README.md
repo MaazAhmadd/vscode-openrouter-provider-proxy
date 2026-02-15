@@ -22,7 +22,7 @@ OpenRouter, VS Code Insiders, Copilot custom model, OpenAI-compatible endpoint, 
 - VS Code Insiders (required for this custom model workflow)
 - OpenRouter API key
 - Bun runtime (this project only works with Bun)
-- Windows PowerShell (for included scripts)
+- Windows PowerShell (for included scripts, you can directly run the server on any machine using bun run server.ts)
 
 ## Quick start
 
@@ -132,7 +132,3 @@ If a model is missing from `modelProviders`, the proxy forwards the request with
 ## Security note
 
 Never commit `config.json` or any file containing your API key.
-
-## Publish note
-
-This repository is intended to be published with clean history and without secret-bearing files. Keep `config.json` local-only.
