@@ -1,6 +1,6 @@
 $scriptPath = Join-Path $PSScriptRoot 'start.ps1'
 $desktopPath = [Environment]::GetFolderPath('Desktop')
-$shortcutPath = Join-Path $desktopPath 'LLM Proxy.lnk'
+$shortcutPath = Join-Path $desktopPath 'VS Code OpenRouter Provider Proxy.lnk'
 
 $wshShell = New-Object -ComObject WScript.Shell
 $shortcut = $wshShell.CreateShortcut($shortcutPath)

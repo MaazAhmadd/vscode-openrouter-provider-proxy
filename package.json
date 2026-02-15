@@ -1,5 +1,5 @@
 {
-  "name": "llm-proxy-or-provider",
+  "name": "vscode-openrouter-provider-proxy",
   "private": true,
   "type": "module",
   "version": "1.0.0",

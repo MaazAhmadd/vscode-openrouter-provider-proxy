@@ -197,7 +197,7 @@ function uiPage(): string {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LLM Proxy Provider Config</title>
+  <title>VS Code OpenRouter Provider Proxy</title>
   <style>
     body { font-family: ui-sans-serif, system-ui, Arial; background:#0b1020; color:#e5e7eb; margin:0; }
     .wrap { max-width:900px; margin:36px auto; padding:0 16px; }
@@ -224,7 +224,7 @@ function uiPage(): string {
 <body>
   <div class="wrap">
     <div class="card">
-      <h1>LLM Proxy / Provider</h1>
+      <h1>VS Code OpenRouter Provider Proxy</h1>
       <p class="muted">Requests to <code>/v1/*</code> are proxied to OpenRouter. Provider routing is injected only when an incoming model is mapped below.</p>
     </div>
 
@@ -502,7 +502,7 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, HOST, () => {
-  console.log(`LLM Proxy web app running at http://${HOST}:${PORT}`);
+  console.log(`VS Code OpenRouter Provider Proxy running at http://${HOST}:${PORT}`);
   console.log(`Config UI: http://${HOST}:${PORT}`);
   console.log(`OpenAI-compatible base URL: http://${HOST}:${PORT}/v1`);
 });

@@ -1,4 +1,4 @@
-# LLM Proxy / Provider for VS Code Insiders + OpenRouter
+# VS Code OpenRouter Provider Proxy
 
 Local OpenAI-compatible proxy and config web app that lets you pin specific OpenRouter models to specific providers.
 
@@ -116,8 +116,9 @@ If a model is missing from `modelProviders`, the proxy forwards the request with
 	- Starts the Bun server.
 	- Optional `-OpenUI` switch opens the web UI in browser.
 
+
 - `create-shortcut.ps1`
-	- Creates a Desktop shortcut (`LLM Proxy.lnk`) that launches `start.ps1`.
+	- Creates a Desktop shortcut (`VS Code OpenRouter Provider Proxy.lnk`) that launches `start.ps1`.
 	- Useful for double-click startup.
 
 - `screenshots/`
